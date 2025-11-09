@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Taste</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            background: #fff8f0; 
+            color: #333; 
+            margin: 0;
+        }
+        header { 
+            background: linear-gradient(90deg, #ff4d4d, #ff9933, #ffcc00); 
+            color: white; 
+            padding: 20px; 
+        }
+        nav a { 
+            margin: 0 15px; 
+            text-decoration: none; 
+            color: #ff4d4d; 
+            font-weight: bold; 
+        }
+        nav a:hover { 
+            color: #ffcc00; 
+        }
+        section { 
+            padding: 30px 20px; 
+        }
+        .service { 
+            margin: 15px; 
+            padding: 15px; 
+            background: #fff4e6; 
+            display: inline-block; 
+            border-radius: 10px; 
+        }
+        footer { 
+            background: #ff4d4d; 
+            color: white; 
+            padding: 15px; 
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Fresh Taste</h1>
+    <p>Fresh taste, Every time</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>We provide delicious, freshly prepared meals for every occasion!</p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="service">Catering Services</div>
+    <div class="service">Home Delivery</div>
+    <div class="service">Food Gift Baskets</div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@freshtaste.com</p>
+    <p>Phone: +234 707 171 9908</p>
+</section>
+
+<footer>
+    &copy; 2025 Fresh Taste
+</footer>
+
+</body>
+</html>
